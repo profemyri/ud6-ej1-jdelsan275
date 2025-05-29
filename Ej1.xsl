@@ -12,7 +12,7 @@
                 <xsl:for-each> select="video_games/game">
                     <h2><xsl:value-of select="name" /></h2>
                     <p><xsl:value-of select="description" /></p>
-                    <p>Platform: <xsl_value-of select="platform" /></p>
+                    <p>Platform: <xsl:value-of select="platform" /></p>
                 </xsl:for-each>
                 </div>
             </body>
